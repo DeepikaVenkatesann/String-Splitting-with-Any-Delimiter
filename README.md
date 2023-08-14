@@ -5,10 +5,10 @@ The customsplit function is a  function that splits a given input string into di
 This can be useful when you have specific delimiters in mind that are not covered by the built-in string splitting functions.
 
 ## Explanation
-This line defines a function named customsplit that takes two parameters:
+The function named customsplit that takes two parameters:
 inputstring (the string to be split) and delimiters (a list of delimiters to use for splitting).
 
-map(re.escape, custom_delimiters): function to each element in the custom_delimiters list. re.escape() escapes any special characters.
+map(re.escape, customdelimiters):It applies re.escape() function to each element in the customdelimiters list. re.escape() escapes any special characters.
 
 ' '.join(): This joins the escaped delimiters using a space as a separator. 
 
@@ -21,7 +21,7 @@ list(): This converts the filtered result into a list.
 ### Function Signature
 
 python
-def custom_split(input_string, delimiters):
+def customsplit(inputstring, delimiters):
 
     Splits the inputstring into fields using the specified delimiters.
 
@@ -32,7 +32,7 @@ def custom_split(input_string, delimiters):
     Returns:
     - list: A list of split fields.
 ## Example Output
-Input:'sdfkdjsadfsd diweiw; 1231:foo'
+Inputstring :'sdfkdjsadfsd diweiw; 1231:foo'
 Delimiters [' ', ';', ':'], 
 Output :['sdfkdjsadfsd', 'diweiw', '1231', 'foo']
 
