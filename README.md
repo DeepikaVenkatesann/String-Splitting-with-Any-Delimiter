@@ -21,9 +21,9 @@ list(): This converts the filtered result into a list.
 ### Function Signature
 
 python
-def customsplit(inputstring, delimiters):
 
-    Splits the inputstring into fields using the specified delimiters.
+    def customsplit(inputstring, delimiters):
+    -Splits the inputstring into fields using the specified delimiters.
 
     Parameters:
     - inputstring (str): The input string to be split.
